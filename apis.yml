@@ -1,8 +1,24 @@
 aid: reef
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/reef.png
 name: REEF
-description: 'REEF is a company surfaced as a portfolio company of softbank-vision-fund and added to the
-  API Evangelist network as a stub for enrichment. Sector: logistics. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'REEF Technology operates a network of urban logistics and proximity real-estate
+  locations, transforming underutilized spaces such as parking lots into multi-purpose
+  neighborhood hubs for goods, services, and experiences. Through its "Power of Proximity"
+  model and its Ulysses operator program, REEF connects brands, cloud/ghost kitchens,
+  delivery, and mobility services to local consumers while helping property owners diversify
+  revenue. Backed by SoftBank Vision Fund, REEF is a logistics and real-estate operator; it
+  publishes no public developer API, SDK, or documentation surface at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/reef/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +28,30 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Logistics
+- Real Estate
+- Mobility
+- Parking
+- Ghost Kitchens
+- Proximity
 apis: []
+common:
+- type: DomainSecurity
+  url: security/reef-domain-security.yml
+- type: Website
+  url: https://www.reeftechnology.com
+- type: PrivacyPolicy
+  url: https://www.reeftechnology.com/privacy-policy
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
