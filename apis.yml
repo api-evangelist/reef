@@ -43,7 +43,7 @@ modified: '2026-07-21'
 tags:
 - Company
 - Logistics
-- Real-Estate
+- Real Estate
 - Mobility
 - Parking
 - Ghost Kitchens
@@ -56,6 +56,7 @@ tags_raw:
 - Parking
 - Ghost Kitchens
 - Proximity
+- Real-Estate
 apis: []
 common:
 - type: DomainSecurity
